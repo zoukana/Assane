@@ -10,7 +10,7 @@ int main()
     float moyenne=0;
 
     printf("Saisissez votre nom\n");
-    scanf("%s",nomEleve);
+  fgets(nomEleve, 50,stdin);
     
     for ( i = 0; i <2; i++)
     
